@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Adicionando Font Awesome -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="menu-icon" onclick="toggleNavbar()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="navbar-menu" id="navbarMenu">
+            <li><a href="#"><i class="fas fa-home"></i> Home</a></li> <!-- Adicionando ícone de casa -->
+            <li><a href="#"><i class="fas fa-cogs"></i> Settings</a></li> <!-- Adicionando ícone de engrenagem -->
+            <li><a href="#"><i class="fas fa-envelope"></i> Messages</a></li> <!-- Adicionando ícone de envelope -->
+            <li><a href="#"><i class="fas fa-users"></i> Customers</a></li> <!-- Adicionando ícone de usuários -->
+            <li><a href="#"><i class="fas fa-folder"></i> Projects</a></li> <!-- Adicionando ícone de pasta -->
+            <li><a href="#"><i class="fas fa-question-circle"></i> Help</a></li> <!-- Adicionando ícone de ponto de interrogação -->
+        </ul>
+        <div class="user-profile">
+            <span class="username">John Doe</span>
+            <img src="avatar.jpg" alt="Profile Picture">
+        </div>
+    </div>
+   
+    <script src="../js/nav.js"></script>
+</body>
+</html>
