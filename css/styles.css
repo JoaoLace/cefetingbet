@@ -285,3 +285,27 @@ body {
     text-align: center;
     font-size: 40px;
   }
+
+  .jogos{
+    align-items: center;
+  }
+  .times{
+    text-align: center;
+    color: #333;
+  }
+  .timeA_score{
+    display: inline;
+    text-align: center;
+    color: #333;
+  }
+  .timeB_score{
+    display: inline;
+    text-align: center;
+    color: #333;
+  }
+
+  .X{
+    display: inline;
+    text-align: center;
+    color: #333;
+  }
